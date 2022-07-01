@@ -7,6 +7,7 @@
 #define PRODUCT_ID      0x6060
 #define MANUFACTURER    NSC
 #define PRODUCT         Matias
+#define DEVICE_VER      0x0001 // V1.0
 
 /* key matrix size */
 #define MATRIX_ROWS 4
@@ -27,3 +28,4 @@
 #define RGB_DI_PIN D0
 #define RGBLED_NUM 48
 #define RGBLIGHT_LIMIT_VAL 20
+#define RGBLIGHT_SLEEP

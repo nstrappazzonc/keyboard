@@ -1,0 +1,112 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.2,
+"PadToPad": 0.2,
+"PadToTrack": 0.2,
+"RegionToRegion": 0.2,
+"TrackToRegion": 0.2,
+"TrackToTrack": 0.2
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "MyPersonalKeyboard-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Bot",
+"FilePolarity": "Positive",
+"Path": "MyPersonalKeyboard-B_Cu.gbr"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "MyPersonalKeyboard-F_Paste.gbr"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "MyPersonalKeyboard-B_Paste.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "MyPersonalKeyboard-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "MyPersonalKeyboard-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "MyPersonalKeyboard-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6,
+"Finish": "None",
+"LayerNumber": 2,
+"ProjectId": {
+"GUID": "4d795065-7273-46f6-9e61-6c4b6579626f",
+"Name": "MyPersonalKeyboard",
+"Revision": "rev?"
+},
+"Size": {
+"X": 230.02,
+"Y": 96.67
+}
+},
+"Header": {
+"CreationDate": "2022-02-02T23:22:24+01:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "(6.0.0-0)"
+}
+},
+"MaterialStackup": [
+{
+"Name": "Top Silk Screen",
+"Type": "Legend"
+},
+{
+"Name": "Top Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Name": "Top Solder Mask",
+"Type": "SolderMask"
+},
+{
+"Name": "F.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Name": "F.Cu/B.Cu",
+"Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)",
+"Type": "Dielectric"
+},
+{
+"Name": "B.Cu",
+"Type": "Copper"
+},
+{
+"Name": "Bottom Solder Mask",
+"Type": "SolderMask"
+},
+{
+"Name": "Bottom Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Name": "Bottom Silk Screen",
+"Type": "Legend"
+}
+]
+}
